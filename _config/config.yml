@@ -1,0 +1,7 @@
+---
+name: stringfield-replacement
+---
+
+SilverStripe\ORM\FieldType\DBString:
+  extensions:
+    - Netwerkstatt\DBStringReplacement\ReplaceExtension

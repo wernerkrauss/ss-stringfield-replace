@@ -1,0 +1,21 @@
+{
+    "name": "wernerkrauss/ss-stringfield-replace",
+    "type": "silverstripe-vendormodule",
+    "keywords": ["silverstripe"],
+    "license": "MIT",
+    "description": "Extension for replacing symbols to html in DBString subclasses",
+    "require": {
+        "silverstripe/framework": "^4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Netwerkstatt\\DBStringReplacement\\": "src/",
+            "Netwerkstatt\\DBStringReplacement\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
